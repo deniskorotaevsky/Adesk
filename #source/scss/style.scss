@@ -532,11 +532,6 @@ body {
                 }
             }
         }
-
-
-
-
-
     }
 }
 
@@ -562,11 +557,6 @@ nav ul li ul {
     flex-direction: column;
 }
 
-
-.displayBlock {
-    display: block;
-}
-
 nav ul li ul li {
     width: 100%;
 }
@@ -575,11 +565,6 @@ nav ul li ul li {
     font-weight: 700;
     color: #00C064;
 }
-
-.ul-liDisplayBlock600 {
-    display: none;
-}
-
 
 @media (max-width: 600px) {
 
@@ -591,18 +576,19 @@ nav ul li ul li {
         display: none;
     }
 
-    nav ul li:hover>ul {
-        display: initial;
-    }
-
-    .ul-liDisplayNone600 {
-        display: none;
-    }
-
     .ul-liDisplayBlock600 {
         display: block;
     }
 
+    .displayBlock {
+        display: none;
+    }
 
+    .closed {
+        display: block;
+    }
 
+    .color2 ul {
+        display: block;
+    }
 }

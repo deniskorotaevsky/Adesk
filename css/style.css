@@ -677,10 +677,6 @@ nav ul li ul {
           flex-direction: column;
 }
 
-.displayBlock {
-  display: block;
-}
-
 nav ul li ul li {
   width: 100%;
 }
@@ -688,10 +684,6 @@ nav ul li ul li {
 .fw700 {
   font-weight: 700;
   color: #00C064;
-}
-
-.ul-liDisplayBlock600 {
-  display: none;
 }
 
 @media (max-width: 600px) {
@@ -704,13 +696,16 @@ nav ul li ul li {
   nav ul li ul {
     display: none;
   }
-  nav ul li:hover > ul {
-    display: initial;
+  .ul-liDisplayBlock600 {
+    display: block;
   }
-  .ul-liDisplayNone600 {
+  .displayBlock {
     display: none;
   }
-  .ul-liDisplayBlock600 {
+  .closed {
+    display: block;
+  }
+  .color2 ul {
     display: block;
   }
 }
