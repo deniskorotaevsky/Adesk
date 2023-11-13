@@ -2,5 +2,6 @@ const nav = document.querySelector('.nav');
 
 nav.addEventListener('click', (e) => {
     let parentEl = e.target.parentElement;
-    parentEl.classList.toggle('color2');
+    parentEl.classList.toggle('open-close');
+    console.log(parentEl)
 });

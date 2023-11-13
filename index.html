@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <header class="header">
+    <!-- <header class="header">
         <div class="header__container">
             <div class="header__container__start">
                 <div class="header__container__start__logo">
@@ -50,10 +50,10 @@
                 <button type="button" class="button__register">Зарегистрироваться</button>
             </div>
         </div>
-    </header>
+    </header> -->
 
     <!-- main -->
-    <main class="main">
+    <!-- <main class="main">
         <div class="container">
             <div class="main__container">
                 <div class="main__container__header">
@@ -69,10 +69,10 @@
                 </div>
             </div>
         </div>
-    </main>
+    </main> -->
 
     <!-- wrap -->
-    <div class="wrap">
+    <!-- <div class="wrap">
         <div class="container">
             <div class="wrap__container">
                 <div class="wrap__container__top">
@@ -100,10 +100,10 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 
     <!-- section -->
-    <div class="section">
+    <!-- <div class="section">
         <div class="container">
             <div class="section__container">
                 <div class="section__container__boxImg">
@@ -118,10 +118,10 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 
     <!-- aside -->
-    <div class="aside">
+    <!-- <div class="aside">
         <div class="container">
             <div class="aside__container">
                 <div class="aside__container__header">
@@ -147,10 +147,10 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 
     <!-- wrapper -->
-    <div class="wrapper">
+    <!-- <div class="wrapper">
         <div class="container">
             <div class="wrapper__section">
                 <div class="wrapper__section__container">
@@ -180,7 +180,7 @@
             </div>
         </div>
     </div>
-
+ -->
 
 
 
@@ -188,19 +188,21 @@
     <div class="footer">
         <div class="container">
             <div class="footer__container">
-
                 <div class="footer__container__top">
+
                     <div class="footer__container__boxImg">
                         <img class="footer__container__img" src="images/logo-footer.png" alt="Картинка">
                     </div>
+
                     <p class="footer__container__top__text">Рассчитывайте
                         на <span>Adesk</span></p>
                 </div>
-
                 <nav class="nav">
-                    <ul>
-                        
-                        <li><a class="fw700" href="#!">Возможности</a>
+                    <ul class="footer__container__items">
+                        <li class="footer__container__item"><a class="fw700" href="#!">
+                                Возможности <img class="footer__container__item-arrow" src="images/footer-arrow.png"
+                                    alt="Картинка">
+                            </a>
                             <ul>
                                 <li><a href="#!">Движение денежных средств</a></li>
                                 <li><a href="#!">Прибыль и убытки</a></li>
@@ -216,8 +218,9 @@
                             </ul>
                         </li>
 
-
-                        <li><a class="fw700" href="#!">Adesk для бизнеса</a>
+                        <li class="footer__container__item"><a class="fw700" href="#!">Adesk для бизнеса<img
+                                    class="footer__container__item-arrow" src="images/footer-arrow.png" alt="Картинка">
+                            </a>
                             <ul>
                                 <li><a href="#!">Digital-агентства</a></li>
                                 <li><a href="#!">Маркетинговые агентства</a></li>
@@ -230,12 +233,16 @@
                             </ul>
                         </li>
 
-
-                        <li><a class="fw700" href="#!">Ресурсы</a>
+                        <li class="footer__container__item"><a class="fw700" href="#!">Ресурсы<img
+                                    class="footer__container__item-arrow" src="images/footer-arrow.png"
+                                    alt="Картинка"></a>
                             <ul>
                                 <li><a href="#!">Журнал о финансах</a></li>
                                 <li><a href="#!">Базовый курс о финансах</a></li>
-                                <li><a href="#!">Расширенный курс по учету</a></li>
+                                <li><a class="footer__container__item-lint-img" href="#!">
+                                        <p>Расширенный курс по учету</p> <img src="images/footer-pic.png"
+                                            alt="Картинка">
+                                    </a></li>
                                 <li><a href="#!">Шаблон финансовой модели</a></li>
                                 <li><a href="#!">Внедрение под ключ</a></li>
                                 <li><a href="#!">Партнерская программа</a></li>
@@ -243,8 +250,9 @@
                             </ul>
                         </li>
 
-
-                        <li class="ul-liDisplayBlock600"><a href="#!" class="fw700" href="#!">Информация</a>
+                        <li class="footer__container__item footer__container__item-displayBlock600"><a href="#!"
+                                class="fw700" href="#!">Информация<img class="footer__container__item-arrow"
+                                    src="images/footer-arrow.png" alt="Картинка"></a>
                             <ul>
                                 <li><a href="#!">Документация по API</a></li>
                                 <li><a href="#!">Отзывы пользователей</a></li>
@@ -252,8 +260,7 @@
                             </ul>
                         </li>
 
-
-                        <li class="displayBlock">
+                        <li class="displayBlock footer__container__item footer__container__item-mt-50">
                             <ul>
                                 <li><a href="#!" class="fw700" href="#!">Информация</a>
                                     <ul>
@@ -263,15 +270,17 @@
                                     </ul>
                                 </li>
 
-                                <li class="ul-liDisplayNone600">
+                                <li>
                                     <ul> <a href="#!"></a>
-                                        <li><a class="fw700" href="#!">По вопросам клиентов:</a>
+                                        <li><a class="fw700 displayBlock footer__container__item-link-pt10" href="#!">По
+                                                вопросам клиентов:</a>
                                             <ul>
                                                 <li><a href="#!">support@adesk.ru</a></li>
                                                 <li><a href="#!">+7 (495) 106-21-00</a></li>
                                             </ul>
                                         </li>
-                                        <li><a class="fw700" href="#!">Предложения и сотрудничество:</a>
+                                        <li><a class="fw700 footer__container__item-link-pt0" href="#!">Предложения и
+                                                сотрудничество:</a>
                                             <ul>
                                                 <li><a href="#!">inbox@adesk.ru</a></li>
                                             </ul>
@@ -281,52 +290,67 @@
                             </ul>
                         </li>
 
-
-                        <li class="ul-liDisplayBlock600"><a class="fw700" href="#!">Контакты</a>
+                        <li class="footer__container__item footer__container__item-displayBlock600"><a class="fw700"
+                                href="#!">Контакты<img class="footer__container__item-arrow"
+                                    src="images/footer-arrow.png" alt="Картинка"></a>
                             <ul>
-                                <li><a class="fw700" href="#!">По вопросам клиентов:</a>
+                                <li><a class="fw500" href="#!">По вопросам клиентов:</a>
                                 <li><a href="#!">support@adesk.ru</a></li>
                                 <li><a href="#!">+7 (495) 106-21-00</a></li>
-                                <li><a class="fw700" href="#!">Предложения и сотрудничество:</a></li>
+                                <li><a class="fw500" href="#!">Предложения и сотрудничество:</a></li>
                                 <li><a href="#!">inbox@adesk.ru</a></li>
                             </ul>
                         </li>
 
-                        
                     </ul>
                 </nav>
+
+                <div class="footer__container__bottom">
+                    <div class="footer__container__bottom__boxImg">
+                        <div class="footer__container__bottom__boxImg__left">
+
+                            <img src="images/visa.png" alt="Картинка" width="49px" height="16px">
+                            <img src="images/footer-visa.png" alt="Картинка" width="32px" height="20px">
+                            <img src="images/footer-tinkoff.png" alt="Картинка" width="104px" height="10px">
+                        </div>
+
+                        <div class="footer__container__bottom__boxImg__right">
+
+                            <div class="footer__container__bottom__boxImg__right__boxAppStore">
+                                <img src="images/footer-apple.png" alt="Картинка" width="20" height="20px">
+                                <p>App Store</p>
+                            </div>
+
+                            <div class="footer__container__bottom__boxImg__right__boxGooglePlay">
+                                <img src="images/footer-googlePlay.png" alt="Картинка" width="20" height="20px">
+                                <p>Google Play</p>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="footer__container__bottom__boxImg2">
+                        <div class="footer__container__bottom__boxImg2__left">
+                            <p class="footer__container__bottom__boxImg2__text">ООО «Адеск», 2022</p>
+                            <p>Политика конфиденциальности</p>
+                            <p>Договор-оферта</p>
+                        </div>
+
+                        <div class="footer__container__bottom__boxImg2__right">
+                            <img src="images/footer-telegram.png" alt="Картинка" width="22px" height="22px">
+                            <img src="images/footer-facebook.png" alt="Картинка" width="22px" height="22px">
+                            <img src="images/footer-vk.png" alt="Картинка" width="22px" height="22px">
+                            <img src="images/footer-youtube.png" alt="Картинка" width="22px" height="22px">
+                            <img src="images/footer-instagram.png" alt="Картинка" width="22px" height="22px">
+                        </div>
+                    </div>
+                </div>
 
             </div>
         </div>
     </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<script  src="./script.js"></script>
-
-
-
+    <script src="./script.js"></script>
 </body>
 
 </html>
