@@ -293,6 +293,16 @@ body {
     .main {
         padding-top: 120px;
 
+        .main__container {
+            .main__container__header {
+                padding: 0 30px;
+
+                .main__container__header__subtitle {
+                    margin: 20px 0 0;
+                }
+            }
+        }
+
         .main__container__boxImg {
             .main__container__img {
                 width: auto;
@@ -307,6 +317,8 @@ body {
 
         .main__container {
             .main__container__header {
+                padding: 0 15px;
+
                 h1.main__container__header__title {
                     font-size: 40px;
                     line-height: 46px;
@@ -434,7 +446,8 @@ body {
 
 @media (max-width: 991px) {
     .wrap {
-        margin: 0 30px;
+        margin: 0;
+        padding: 0 30px;
         height: auto;
         margin-top: 150px;
 
@@ -491,6 +504,7 @@ body {
 @media (max-width: 601px) {
     .wrap {
         margin-top: 100px;
+        padding: 0 15px;
 
         .wrap__container {
 
