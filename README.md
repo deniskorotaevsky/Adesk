@@ -1,2 +1,4 @@
-!([/deniskorotaevsky/Adesk/blob/main/adesc.jpg](https://github.com/deniskorotaevsky/Adesk/blob/main/adesc.jpg)https://github.com/deniskorotaevsky/Adesk/blob/main/adesc.jpg)](https://www.youtube.com/watch?v=mpNANG0Aqy0)
+
+
+!([Тут ссылка на картинку](https://github.com/deniskorotaevsky/Adesk/blob/main/adesc.jpg)https://github.com/deniskorotaevsky/Adesk/blob/main/adesc.jpg)]([Тут ссылка на видео](https://www.youtube.com/watch?v=mpNANG0Aqy0)https://www.youtube.com/watch?v=mpNANG0Aqy0)
 
