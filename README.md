@@ -1,1 +1,1 @@
-[!(https://github.com/deniskorotaevsky/Adesk/blob/main/adesc.jpg)]( https://www.youtube.com/watch?v=mpNANG0Aqy0)
+![Image](https://github.com/deniskorotaevsky/Adesk/blob/main/adesc.gif)
